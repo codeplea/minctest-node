@@ -10,4 +10,4 @@ l.run("test2", function(){
    l.fequal(5.5, 5.6);        //compare floats
 });
 
-return l.results();           //show results
+process.exit(l.results()); //show results
