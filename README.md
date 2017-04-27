@@ -32,8 +32,8 @@ l.run("test1", function(){
 });
 
 l.run("test2", function(){
-   l.equal(5, 6);             //compare integers
-   l.fequal(5.5, 5.6);        //compare floats
+   l.equal(5, 5);             //compare integers
+   l.fequal(5.5, 5.5);        //compare floats
 });
 
 process.exit(l.results()); //show results
