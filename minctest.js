@@ -84,7 +84,7 @@ var lresults = function() {
     if (lfails === 0) {
         console.log("ALL TESTS PASSED (" + ltests + "/" + ltests + ")");
     } else {
-        console.log("SOME TESTS FAILED (" + ltests-lfails + "/" + ltests + ")");
+        console.log("SOME TESTS FAILED (" + (ltests-lfails) + "/" + ltests + ")");
     }
     return lfails !== 0;
 };
