@@ -1,4 +1,4 @@
-// MINCTEST - Minimal Node.js Test Library - 0.1.1
+// MINCTEST - Minimal Node.js Test Library
 // This is based on minctest.h (https://codeplea.com/minctest)
 //
 // Copyright (c) 2014-2017 Lewis Van Winkle
